@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+  background-color: white;
+  
+}
+
+/*Menu
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	position:relative;
+	left:60%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+*/
+
+aside{
+	width:20%;
+	float:left;
+	position:relative;
+	background-color:white;
+}
+
+.post{
+	width:98%;
+	height:10%;
+	overflow:hidden;
+	resize: none;
+	margin:1%;
+}
+.container-form{
+	border:1px solid;
+	width:45%;
+	margin:2%;
+}
+.box-container{
+	width:20%;
+	height:40%;
+  position:relative;
+  background-color: white;
+  border:2px solid #ccc;
+  border-radius:8px!important;
+  margin: 2%;
+  float: left;
+  
+
+}
+.box-title{
+	text-align:center;
+	font-size:1em;
+	color:white;
+	text-transform:uppercase;
+	padding:4%;
+	background-color:#1FCE6D;
+
+}
+img{
+	margin:5%;
+	width: 40%;
+	float:left;
+}
+
+.box-message{
+	float:right;
+	margin:5%;
+	width:40%;
+	height: 50%;
+	overflow:scroll;
+	word-wrap: break-word;
+}
+.box-buttons{
+	position:relative;
+	clear:both;
+	float:right;
+	right:10%;
+	bottom:5%;
+}
+/*stilizirane na butonite vuv formichkata*/
+.btn-success{
+	position:relative;
+	width:100%;
+	padding:5px 0;
+	top:16px;
+
+}

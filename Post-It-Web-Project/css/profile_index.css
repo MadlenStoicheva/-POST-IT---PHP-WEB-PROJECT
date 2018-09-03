@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+  background-color: white;
+  
+}
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	position:relative;
+	left:70%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+aside{
+	width:20%;
+	float:left;
+	position:relative;
+	background-color:white;
+}
+
+.post{
+	width:98%;
+	height:10%;
+	overflow:hidden;
+	resize: none;
+	margin:1%;
+}
+.container-form{
+	border:1px solid;
+	width:60%;
+	margin:2%;
+	clear:both;
+}
+
+.box-container{
+	
+  background-color: white;
+  border:1px solid;
+  margin: 2%;
+}
+.box-title{
+	text-align:center;
+	font-size:1em;
+	color:white;
+	text-transform:uppercase;
+	padding:2%;
+	background-color:#1FCE6D;
+
+}
+img{
+	margin:5%;
+	width: 90%;
+	float:left;
+}
+
+.box-message{
+	float:right;
+	margin:4%;
+	width:90%;
+	height: 5%;
+	word-wrap: break-word;
+}
+.box-buttons{
+margin:1em;
+
+}
+/*stilizirane na butonite vuv formichkata*/
+#form-button{
+	position:relative;
+	width:100%;
+	padding:5px 0;
+	top:16px;
+
+}
+#comment{
+	width:100%;
+	height:10%;
+	resize: none;
+}
+#frm-comment{
+	/*border:1px solid;*/
+	
+}
+#submitButton{
+	padding:0.3em;
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+}
+
+#output{
+	border:1px solid;
+}
